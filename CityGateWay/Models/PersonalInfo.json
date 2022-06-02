@@ -44,7 +44,7 @@
         },
         {
             "number": 7,
-            "questions": ["What's your birthday?", "Where were you born?"],
+            "questions": ["What's your birthday?", "When were you born?"],
             "keys": ["birthday", "born"],
             "answers": ["06/07/1956"],
             "tips": ["你的生日是?"]
@@ -149,7 +149,7 @@
         },
         {
             "number": 22,
-            "questions": ["How long have your study?"],
+            "questions": ["How long have your been studying there?"],
             "keys": ["How long", "study"],
             "answers": ["From 2016 until now"],
             "tips": ["你在学习多久了?"]
@@ -321,6 +321,20 @@
             "keys": ["son", "working"],
             "answers": ["No, he is unemployed."],
             "tips": ["你儿子有工作吗?"]
+        },
+        {
+            "number": 47,
+            "questions": ["Were your parents married before your 18th birthday?"],
+            "keys": ["parents", "married"],
+            "answers": ["Yes, they were"],
+            "tips": ["你父母在你18岁之前结婚吗?"]
+        },
+        {
+            "number": 48,
+            "questions": ["What is your gender?"],
+            "keys": ["gender"],
+            "answers": ["I am female."],
+            "tips": ["你的性别是？"]
         }
     ],
     "category": "Personal Info Test"

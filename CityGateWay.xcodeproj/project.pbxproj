@@ -15,7 +15,7 @@
 		4227CF402841CEAD00AFF7D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4227CF3E2841CEAD00AFF7D2 /* LaunchScreen.storyboard */; };
 		422E2F0A284959F900164FF4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E2F09284959F900164FF4 /* MenuViewController.swift */; };
 		422E2F0C28495ABA00164FF4 /* QuizBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E2F0B28495ABA00164FF4 /* QuizBase.swift */; };
-		42D8889D284480BB00651EC6 /* PersonalInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4227CF502842C4DF00AFF7D2 /* PersonalInfo.json */; };
+		422E2F0E28497A9E00164FF4 /* PersonalInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4227CF502842C4DF00AFF7D2 /* PersonalInfo.json */; };
 		42D8889F28448B5C00651EC6 /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D8889E28448B5C00651EC6 /* QuizData.swift */; };
 /* End PBXBuildFile section */
 
@@ -161,8 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D8889D284480BB00651EC6 /* PersonalInfo.json in Resources */,
 				4227CF402841CEAD00AFF7D2 /* LaunchScreen.storyboard in Resources */,
+				422E2F0E28497A9E00164FF4 /* PersonalInfo.json in Resources */,
 				4227CF3D2841CEAD00AFF7D2 /* Assets.xcassets in Resources */,
 				4227CF3B2841CEAB00AFF7D2 /* Main.storyboard in Resources */,
 			);
