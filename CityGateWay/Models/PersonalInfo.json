@@ -1,0 +1,328 @@
+{
+    "quiz":[
+        {
+            "number": 1,
+            "questions": ["What's your name?", "What's your full name?"],
+            "keys": ["full name"],
+            "answers": ["Bijuan Li"],
+            "tips": ["您的姓名?"]
+        },
+        {
+            "number": 2,
+            "questions": ["What's your first name?", "What's your given name?"],
+            "keys": ["first name", "given name"],
+            "answers": ["Bijuan"],
+            "tips": ["您的名字?"]
+        },
+        {
+            "number": 3,
+            "questions": ["What's your last name?", "What's your family name?"],
+            "keys": ["last name", "family name"],
+            "answers": ["Li"],
+            "tips": ["您的姓氏?"]
+        },
+        {
+            "number": 4,
+            "questions": ["Where were you born?", "What country were you born?"],
+            "keys": ["born"],
+            "answers": ["China"],
+            "tips": ["你在哪里（国家）出生?"]
+        },
+        {
+            "number": 5,
+            "questions": ["What is your nationality?", "What is your citizenship?"],
+            "keys": ["nationality", "citizenship"],
+            "answers": ["China"],
+            "tips": ["你的国籍?"]
+        },
+        {
+            "number": 6,
+            "questions": ["What's your social security number?"],
+            "keys": ["social security number"],
+            "answers": ["0034170280"],
+            "tips": ["你的工卡号?"]
+        },
+        {
+            "number": 7,
+            "questions": ["What's your birthday?", "Where were you born?"],
+            "keys": ["birthday", "born"],
+            "answers": ["06/07/1956"],
+            "tips": ["你的生日是?"]
+        },
+        {
+            "number": 8,
+            "questions": ["What is the day you become a lawful permanent resident?", "When do you arrived America?"],
+            "keys": ["lawful permanent resident", "arrived"],
+            "answers": ["04/23/2013"],
+            "tips": ["你成为永久居民的日期?"]
+        },
+        {
+            "number": 9,
+            "questions": ["What is your phone number?"],
+            "keys": ["phone number"],
+            "answers": ["415-866-8903"],
+            "tips": ["你的电话号码是?"]
+        },
+        {
+            "number": 10,
+            "questions": ["What is your email address?"],
+            "keys": ["email"],
+            "answers": ["No, I don't have email"],
+            "tips": ["你的电邮是?"]
+        },
+        {
+            "number": 11,
+            "questions": ["Where do you live now?", "What is your current address?"],
+            "keys": ["live", "address"],
+            "answers": ["866 Jackson st. Apartment 305, San Francisco"],
+            "tips": ["你现在的地址?"]
+        },
+        {
+            "number": 12,
+            "questions": ["How long have you been living there? (current address)"],
+            "keys": ["How long", "living"],
+            "answers": ["From 2013 until now"],
+            "tips": ["你住在现在的地址多久?"]
+        },
+        {
+            "number": 13,
+            "questions": ["What is your zip code?"],
+            "keys": ["zip code"],
+            "answers": ["94133"],
+            "tips": ["你的邮政编码是?"]
+        },
+        {
+            "number": 14,
+            "questions": ["What is your race?"],
+            "keys": ["race"],
+            "answers": ["Asian"],
+            "tips": ["你的种族是?"]
+        },
+        {
+            "number": 15,
+            "questions": ["What is your height?", "How tall are you?"],
+            "keys": ["height", "tall"],
+            "answers": ["5 feet 5"],
+            "tips": ["你的身高是?"]
+        },
+        {
+            "number": 16,
+            "questions": ["What is your weight?"],
+            "keys": ["weight"],
+            "answers": ["140 pounds"],
+            "tips": ["你的体重是?"]
+        },
+        {
+            "number": 17,
+            "questions": ["What is your eye color?"],
+            "keys": ["eye color"],
+            "answers": ["Brown"],
+            "tips": ["你的瞳孔色是?"]
+        },
+        {
+            "number": 18,
+            "questions": ["What is your hair color?"],
+            "keys": ["hair color"],
+            "answers": ["Black"],
+            "tips": ["你的发色是?"]
+        },
+        {
+            "number": 19,
+            "questions": ["Are you working now?"],
+            "keys": ["working"],
+            "answers": ["No, I am a housewife and a student"],
+            "tips": ["你现在有工作吗?"]
+        },
+        {
+            "number": 20,
+            "questions": ["What school are you taking?"],
+            "keys": ["school"],
+            "answers": ["Self help for the elederly"],
+            "tips": ["你现在的学校是?"]
+        },
+        {
+            "number": 21,
+            "questions": ["What is the address of your school?"],
+            "keys": ["school", "address"],
+            "answers": ["601 Jackson"],
+            "tips": ["你学校的地址是?"]
+        },
+        {
+            "number": 22,
+            "questions": ["How long have your study?"],
+            "keys": ["How long", "study"],
+            "answers": ["From 2016 until now"],
+            "tips": ["你在学习多久了?"]
+        },
+        {
+            "number": 23,
+            "questions": ["Who support your life?"],
+            "keys": ["support"],
+            "answers": ["My husband"],
+            "tips": ["谁支持你的生活?"]
+        },
+        {
+            "number": 24,
+            "questions": ["How many (total) days did you spend outside the Unites States during the last 5 years?"],
+            "keys": ["How many", "days", "5 years"],
+            "answers": ["61 day"],
+            "tips": ["过去5年你离开过美国几天?"]
+        },
+        {
+            "number": 25    ,
+            "questions": ["How many trips of have you taken outside the United States during the last 5 years?"],
+            "keys": ["How many", "trips", "5 years"],
+            "answers": ["2 trips"],
+            "tips": ["过去5年你离开过美国几次?"]
+        },
+        {
+            "number": 26,
+            "questions": ["How many days were you travelling for the 1st trip?"],
+            "keys": ["How many", "days", "1st trip"],
+            "answers": ["27 days"],
+            "tips": ["你第一次离开美国去了几天?"]
+        },
+        {
+            "number": 27,
+            "questions": ["How many days were you travelling for the 2nd trip?"],
+            "keys": ["How many", "days", "2nd trip"],
+            "answers": ["34 days"],
+            "tips": ["你第二次离开美国去了几天?"]
+        },
+        {
+            "number": 28,
+            "questions": ["Are you married?", "What is your marital status?"],
+            "keys": ["married"],
+            "answers": ["I am married."],
+            "tips": ["你结婚了吗?"]
+        },
+        {
+            "number": 29,
+            "questions": ["How many times have you been married?"],
+            "keys": ["How many", "married"],
+            "answers": ["1 time"],
+            "tips": ["你结过几次婚?"]
+        },
+        {
+            "number": 30,
+            "questions": ["What is your spouse's name?", "What is your husband's name?"],
+            "keys": ["spouse", "husband", "name"],
+            "answers": ["Huomin Tan"],
+            "tips": ["你配偶(丈夫)的名字是?"]
+        },
+        {
+            "number": 31,
+            "questions": ["What date you married with the current spouse or husband?"],
+            "keys": ["What date", "spouse", "husband", ],
+            "answers": ["08/26/1985"],
+            "tips": ["你的结婚纪念日是?"]
+        },
+        {
+            "number": 32,
+            "questions": ["What's is the birthday of your husband?"],
+            "keys": ["birthday", "spouse", "husband", ],
+            "answers": ["11/21/1956"],
+            "tips": ["你丈夫的生日是?"]
+        },
+        {
+            "number": 33,
+            "questions": ["Is your husband working?"],
+            "keys": ["husband", "working", ],
+            "answers": ["Yes, he is"],
+            "tips": ["你丈夫有工作吗?"]
+        },
+        {
+            "number": 34,
+            "questions": ["What is your husband's job?"],
+            "keys": ["husband", "job"],
+            "answers": ["He is working at grocery store"],
+            "tips": ["你的丈夫的生日是?"]
+        },
+        {
+            "number": 35,
+            "questions": ["What is the current employer or company of your husband?"],
+            "keys": ["husband", "employer", "company"],
+            "answers": ["City Super"],
+            "tips": ["你丈夫的公司是?"]
+        },
+        {
+            "number": 36,
+            "questions": ["What is your husband's address?"],
+            "keys": ["husband", "address"],
+            "answers": ["He lives with me (866 Jackson)"],
+            "tips": ["你丈夫的地址是?"]
+        },
+        {
+            "number": 37,
+            "questions": ["Is your husband a U.S citizen?"],
+            "keys": ["husband", "citizen"],
+            "answers": ["No, he is a permanent resident."],
+            "tips": ["你丈夫是美国公民吗?"]
+        },
+        {
+            "number": 38,
+            "questions": ["What's your husband's nationality?", "What's your husband's citizenship?"],
+            "keys": ["husband", "nationality","citizenship"],
+            "answers": ["China"],
+            "tips": ["你丈夫的国籍是?"]
+        },
+        {
+            "number": 39,
+            "questions": ["Who applied you for immigrantion?"],
+            "keys": ["who", "applied"],
+            "answers": ["My brother"],
+            "tips": ["谁申请你移民的?"]
+        },
+        {
+            "number": 40,
+            "questions": ["How many children do you have?"],
+            "keys": ["how many", "children"],
+            "answers": ["I have one son"],
+            "tips": ["你有多少个孩子?"]
+        },
+        {
+            "number": 41,
+            "questions": ["How old is your son?"],
+            "keys": ["how old", "son"],
+            "answers": ["He is 36 now."],
+            "tips": ["你儿子的年龄是?"]
+        },
+        {
+            "number": 42,
+            "questions": ["What's your son's name?"],
+            "keys": ["son", "name"],
+            "answers": ["Jinjian Tan"],
+            "tips": ["你的儿子的名字是?"]
+        },
+        {
+            "number": 43,
+            "questions": ["What's your son's birthday?"],
+            "keys": ["son", "birthday"],
+            "answers": ["5/20/1986"],
+            "tips": ["你儿子的生日是?"]
+        },
+        {
+            "number": 44,
+            "questions": ["Is your son live with you?"],
+            "keys": ["son", "live"],
+            "answers": ["Yes he is"],
+            "tips": ["你儿子和你住在一起吗?"]
+        },
+        {
+            "number": 45,
+            "questions": ["Where is you son's address?"],
+            "keys": ["son", "address"],
+            "answers": ["He live with me."],
+            "tips": ["你儿子的地址是?"]
+        },
+        {
+            "number": 46,
+            "questions": ["Is your son working?"],
+            "keys": ["son", "working"],
+            "answers": ["No, he is unemployed."],
+            "tips": ["你儿子有工作吗?"]
+        }
+    ],
+    "category": "Personal Info Test"
+}
+
