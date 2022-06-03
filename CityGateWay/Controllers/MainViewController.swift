@@ -9,7 +9,7 @@ import UIKit
 import AVFoundation
 import Foundation
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     var quizBase: QuizBase = QuizBase(forName: "PersonalInfo")
     let synthesizer = AVSpeechSynthesizer()
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
         initUIStyle()
         let currentQuestion = quizBase.getCurrentQuestion()
-
+        self.modalPresentationStyle = .fullScreen
         updateUI(question: currentQuestion)
         super.viewDidLoad()
         synthesizer.delegate = self
@@ -138,7 +138,7 @@ extension UILabel {
 }
 
 
-extension ViewController: AVSpeechSynthesizerDelegate {
+extension MainViewController: AVSpeechSynthesizerDelegate {
     // to switch(disable/enable) speak buttons (all) when tts is speaking utterance
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer,
                            didFinish utterance: AVSpeechUtterance) {

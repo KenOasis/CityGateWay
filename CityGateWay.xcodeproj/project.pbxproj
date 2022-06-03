@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		4227CF342841CEAB00AFF7D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227CF332841CEAB00AFF7D2 /* AppDelegate.swift */; };
 		4227CF362841CEAB00AFF7D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227CF352841CEAB00AFF7D2 /* SceneDelegate.swift */; };
-		4227CF382841CEAB00AFF7D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227CF372841CEAB00AFF7D2 /* ViewController.swift */; };
+		4227CF382841CEAB00AFF7D2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227CF372841CEAB00AFF7D2 /* MainViewController.swift */; };
 		4227CF3B2841CEAB00AFF7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4227CF392841CEAB00AFF7D2 /* Main.storyboard */; };
 		4227CF3D2841CEAD00AFF7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4227CF3C2841CEAD00AFF7D2 /* Assets.xcassets */; };
 		4227CF402841CEAD00AFF7D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4227CF3E2841CEAD00AFF7D2 /* LaunchScreen.storyboard */; };
 		422E2F0A284959F900164FF4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E2F09284959F900164FF4 /* MenuViewController.swift */; };
 		422E2F0C28495ABA00164FF4 /* QuizBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E2F0B28495ABA00164FF4 /* QuizBase.swift */; };
 		422E2F0E28497A9E00164FF4 /* PersonalInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4227CF502842C4DF00AFF7D2 /* PersonalInfo.json */; };
+		422E2F10284987D700164FF4 /* flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422E2F0F284987D700164FF4 /* flag.jpg */; };
+		422E2F1228498B5400164FF4 /* CivilGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E2F1128498B5400164FF4 /* CivilGenerator.swift */; };
 		42D8889F28448B5C00651EC6 /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D8889E28448B5C00651EC6 /* QuizData.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +25,7 @@
 		4227CF302841CEAB00AFF7D2 /* CityGateWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityGateWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4227CF332841CEAB00AFF7D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4227CF352841CEAB00AFF7D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4227CF372841CEAB00AFF7D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		4227CF372841CEAB00AFF7D2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		4227CF3A2841CEAB00AFF7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4227CF3C2841CEAD00AFF7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4227CF3F2841CEAD00AFF7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,6 +33,8 @@
 		4227CF502842C4DF00AFF7D2 /* PersonalInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PersonalInfo.json; sourceTree = "<group>"; };
 		422E2F09284959F900164FF4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		422E2F0B28495ABA00164FF4 /* QuizBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBase.swift; sourceTree = "<group>"; };
+		422E2F0F284987D700164FF4 /* flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flag.jpg; sourceTree = "<group>"; };
+		422E2F1128498B5400164FF4 /* CivilGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilGenerator.swift; sourceTree = "<group>"; };
 		42D8889E28448B5C00651EC6 /* QuizData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +73,7 @@
 				4227CF482841CECD00AFF7D2 /* Controllers */,
 				4227CF472841CEC400AFF7D2 /* Views */,
 				4227CF3C2841CEAD00AFF7D2 /* Assets.xcassets */,
+				422E2F0F284987D700164FF4 /* flag.jpg */,
 				4227CF3E2841CEAD00AFF7D2 /* LaunchScreen.storyboard */,
 				4227CF4B2841CF0D00AFF7D2 /* Models */,
 				4227CF412841CEAD00AFF7D2 /* Info.plist */,
@@ -87,7 +92,7 @@
 		4227CF482841CECD00AFF7D2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4227CF372841CEAB00AFF7D2 /* ViewController.swift */,
+				4227CF372841CEAB00AFF7D2 /* MainViewController.swift */,
 				422E2F09284959F900164FF4 /* MenuViewController.swift */,
 			);
 			path = Controllers;
@@ -99,6 +104,7 @@
 				4227CF502842C4DF00AFF7D2 /* PersonalInfo.json */,
 				42D8889E28448B5C00651EC6 /* QuizData.swift */,
 				422E2F0B28495ABA00164FF4 /* QuizBase.swift */,
+				422E2F1128498B5400164FF4 /* CivilGenerator.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4227CF402841CEAD00AFF7D2 /* LaunchScreen.storyboard in Resources */,
+				422E2F10284987D700164FF4 /* flag.jpg in Resources */,
 				422E2F0E28497A9E00164FF4 /* PersonalInfo.json in Resources */,
 				4227CF3D2841CEAD00AFF7D2 /* Assets.xcassets in Resources */,
 				4227CF3B2841CEAB00AFF7D2 /* Main.storyboard in Resources */,
@@ -175,9 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4227CF382841CEAB00AFF7D2 /* ViewController.swift in Sources */,
+				4227CF382841CEAB00AFF7D2 /* MainViewController.swift in Sources */,
 				4227CF342841CEAB00AFF7D2 /* AppDelegate.swift in Sources */,
 				42D8889F28448B5C00651EC6 /* QuizData.swift in Sources */,
+				422E2F1228498B5400164FF4 /* CivilGenerator.swift in Sources */,
 				422E2F0C28495ABA00164FF4 /* QuizBase.swift in Sources */,
 				4227CF362841CEAB00AFF7D2 /* SceneDelegate.swift in Sources */,
 				422E2F0A284959F900164FF4 /* MenuViewController.swift in Sources */,
