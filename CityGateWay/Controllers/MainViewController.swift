@@ -10,11 +10,11 @@ import AVFoundation
 import Foundation
 
 class MainViewController: UIViewController {
-
-    var quizBase: QuizBase = QuizBase(forName: "PersonalInfo")
-    let synthesizer = AVSpeechSynthesizer()
-    var ttsCount = 0
-
+    
+    var settingBase: SettingBase = SettingBase()
+    
+    var quizBase: QuizBase?
+        
     @IBOutlet weak var numberLabelView: UILabel!
     
     @IBOutlet weak var questionLabelView: UILabel!
@@ -33,10 +33,14 @@ class MainViewController: UIViewController {
     
     var speakButtons: [UIButton] = []
     
+    let synthesizer = AVSpeechSynthesizer()
+    
+    var ttsCount = 0
+    
     override func viewDidLoad() {
-        
+        quizBase  = QuizBase(forName: settingBase.setting!.currentTest)
         initUIStyle()
-        let currentQuestion = quizBase.getCurrentQuestion()
+        let currentQuestion = quizBase!.getCurrentQuestion()
         self.modalPresentationStyle = .fullScreen
         updateUI(question: currentQuestion)
         super.viewDidLoad()
@@ -58,7 +62,7 @@ class MainViewController: UIViewController {
         keywordsLabelView.text = question.getKey()
         answerLabelView.text = question.getAnswer()
         tipsLabelView.text = question.getTips()
-        progressBarView.progress = quizBase.getCurrentProgress()
+        progressBarView.progress = quizBase!.getCurrentProgress()
         
     }
     
@@ -69,7 +73,7 @@ class MainViewController: UIViewController {
         for i in 0..<textsToSpeech.count {
             let utterance = AVSpeechUtterance(string: textsToSpeech[i])
             utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-            utterance.rate = 0.3
+            utterance.rate = settingBase.setting!.speakingRate
             utterance.preUtteranceDelay = 0.5
             utterance.postUtteranceDelay = 0.5
             synthesizer.speak(utterance)
@@ -79,13 +83,13 @@ class MainViewController: UIViewController {
     
     
     @IBAction func previousButtonPressed(_ sender: UIButton) {
-        let previousQuestion = quizBase.getPreviousQuestion()
+        let previousQuestion = quizBase!.getPreviousQuestion()
         updateUI(question: previousQuestion)
     }
     
     
     @IBAction func nextQuestionPressed(_ sender: UIButton) {
-        let nextQuestion = quizBase.getNextQuestion()
+        let nextQuestion = quizBase!.getNextQuestion()
         updateUI(question: nextQuestion)
     }
     
@@ -108,7 +112,7 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func settingButtonPressed(_ sender: UIButton) {
-        // TODO setting the database or starting the test or anything else.
+        self.performSegue(withIdentifier: "goToSetting", sender: self)
     }
     
     
@@ -121,14 +125,27 @@ class MainViewController: UIViewController {
         // TODO modified answer as needed
     }
     
-    func switchButtons(buttons: [UIButton]) {
-        // swicth status of UserInteraction of group of UIbutton
-        for button in buttons {
-            button.isUserInteractionEnabled = !button.isUserInteractionEnabled
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToSetting" {
+            let destinationVC = segue.destination as! SettingViewController
+            destinationVC.speakingRate = settingBase.setting!.speakingRate
         }
     }
+    @IBAction func unwindToViewController1(segue: UIStoryboardSegue) {
+        
+        let dest = segue.source as! SettingViewController
+        settingBase.setting?.setSpeakingRate(dest.speakingRateSlider.value)
+       // TODO: Use foo in view controller 1
+    }
+    
 }
 
+private func switchButtons(buttons: [UIButton]) {
+    // swicth status of UserInteraction of group of UIbutton
+    for button in buttons {
+        button.isUserInteractionEnabled = !button.isUserInteractionEnabled
+    }
+}
 
 extension UILabel {
     func setLabel() {

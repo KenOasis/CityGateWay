@@ -9,16 +9,16 @@ import Foundation
 
 import Foundation
 
-struct QuizData: Decodable {
-    let quiz: [Question]
-    let category: String
+struct QuizData: Codable {
+    var quiz: [Question]
+    var category: String
 }
-struct Question: Decodable {
-    let number: Int
-    let questions: [String]
-    let keys: [String]
-    let answers: [String]
-    let tips: [String]
+struct Question: Codable {
+    var number: Int
+    var questions: [String]
+    var keys: [String]
+    var answers: [String]
+    var tips: [String]
     
     func getQuestion() -> String {
         var description = ""
