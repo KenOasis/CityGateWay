@@ -27,11 +27,9 @@ struct SettingBase {
         setting?.setSpeakingRate(rate)
     }
 
-    mutating func setCustomTestNames(_ names: [String]) {
-        setting?.setCustomTestNames(names)
-    }
+    // TODO add remove test
     
-    mutating func setCurrentTest(_ test: String) {
+    mutating func setCurrentTest(_ test: Int) {
         setting?.setCurrentTest(test)
     }
 }

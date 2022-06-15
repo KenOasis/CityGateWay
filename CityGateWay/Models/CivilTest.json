@@ -1,0 +1,711 @@
+{
+    "quiz":[
+        {
+            "number": 90,
+            "questions": ["What ocean is on the East coast of the United States?"],
+            "keys": ["oecan", "East"],
+            "answers": ["Atlantic (Ocean)"],
+            "tips": ["美国东岸滨邻哪个海洋?"]
+        },
+        {
+            "number": 89,
+            "questions": ["What ocean is on the West coast of the United States?"],
+            "keys": ["oecan", "West"],
+            "answers": ["Pacific (Ocean)"],
+            "tips": ["美国线滨邻哪个海洋"]
+        },
+        {
+            "number": 92,
+            "questions": ["Name one state that borders Canada."],
+            "keys": ["one state", "borders Canada"],
+            "answers": ["Alaska"],
+            "tips": ["说出与加拿大毗邻的一个州。"]
+        },
+        {
+            "number": 93,
+            "questions": ["Name one state that borders Mexico."],
+            "keys": ["one state", "borders Mexico"],
+            "answers": ["California"],
+            "tips": ["说出与墨西哥毗邻的一个州。"]
+        },
+        {
+            "number": 44,
+            "questions": ["What is the capital of your state?"],
+            "keys": ["capital", "state"],
+            "answers": ["Sacramento"],
+            "tips": ["你居住州的首府在哪里？"]
+        },
+        {
+            "number": 43,
+            "questions": ["Who is the Governor of your state now?"],
+            "keys": ["Who", "Governor"],
+            "answers": ["Gavin Newsom"],
+            "tips": ["你居住州的州长是谁？"]
+        },
+        {
+            "number": 94,
+            "questions": ["What is the capital of the United States?"],
+            "keys": ["capital", "United States"],
+            "answers": ["Washington, D.C."],
+            "tips": ["美国首都在哪儿？"]
+        },
+        {
+            "number": 41 ,
+            "questions": ["Under our constitution, some powers belong to the federal government. What is one power of the federal government?"],
+            "keys": ["one power", "government"],
+            "answers": ["print money"],
+            "tips": ["举出联邦政府的一项权利"]
+        },
+        {
+            "number": 42 ,
+            "questions": ["Under our constitution, some powers belong to the states. What is one power of the states?"],
+            "keys": ["one power", "states"],
+            "answers": ["Give a driver's license"],
+            "tips": ["举出州政府的一项权利"]
+        },
+        {
+            "number": 95,
+            "questions": ["Where is the Statue of Liberty?"],
+            "keys": ["Where", "Statue Liberty"],
+            "answers": ["New York Harbor"],
+            "tips": ["自由女神像在哪儿？"]
+        },
+        {
+            "number": 64,
+            "questions": ["There were 13 original states. Name three"],
+            "keys": ["13 states", "Name 3"],
+            "answers": ["New York", "New Jersey", "New Hamsphire"],
+            "tips": ["美国最初有十三个州,说出其中三个。"]
+        },
+        {
+            "number": 88,
+            "questions": ["Name one of the two longest rivers in the United states."],
+            "keys": ["longest river"],
+            "answers": ["Mississippi"],
+            "tips": ["说出美国最长的两条河流之一。"]
+        },
+        {
+            "number": 71,
+            "questions": ["What territory did the United States buy from France in 1803?"],
+            "keys": ["United States Buy", "1803"],
+            "answers": ["Louisana"],
+            "tips": ["1803年美国向法国购买了哪片土地？"]
+        },
+        {
+            "number": 87,
+            "questions": ["Name one American Indian tribe in the United States."],
+            "keys": ["one", "Indian tribe"],
+            "answers": ["Hopi"],
+            "tips": ["说出一个美国印第安部落。"]
+        },
+        {
+            "number": 91,
+            "questions": ["Name one U.S. territory."],
+            "keys": ["one", "territory"],
+            "answers": ["Guam"],
+            "tips": ["说出一个美国领地。"]
+        },
+        {
+            "number": 70,
+            "questions": ["Who was the first President?"],
+            "keys": ["first", "President"],
+            "answers": ["(George) Washinton"],
+            "tips": ["美国第一任总统是谁？"]
+        },
+        {
+            "number": 69,
+            "questions": ["Who is the \"Father of Our Country\"?"],
+            "keys": ["Father of Our Country"],
+            "answers": ["(George) Washinton"],
+            "tips": ["美国国父是谁？"]
+        },
+        {
+            "number": 62,
+            "questions": ["Who wrote the Declaration of Independence?"],
+            "keys": ["wrote", "Independence"],
+            "answers": ["(Thomas) Jefferson"],
+            "tips": ["谁写了独立宣言？"]
+        },
+        {
+            "number": 67,
+            "questions": ["The Federalist Papers supported the passage of the U.S constitution. Name one of the writers."],
+            "keys": ["Constitution", "writer"],
+            "answers": ["(James) Madison"],
+            "tips": ["举出\"联邦论文集\"的一个作者。"]
+        },
+        {
+            "number": 75,
+            "questions": ["What was one important thing that Abraham Lincoln did?"],
+            "keys": ["Lincoln","did"],
+            "answers": ["freed the slaves"],
+            "tips": ["林肯的一件重要事迹是什么？"]
+        },
+        {
+            "number": 76,
+            "questions": ["What did the Emancipation Proclamation do?"],
+            "keys": ["Emancipation Proclamation"],
+            "answers": ["freed the slaves"],
+            "tips": ["\"解放宣言\"的作用何在？"]
+        },
+        {
+            "number": 79,
+            "questions": ["Who was President during World War 1?"],
+            "keys": ["President", "World War 1"],
+            "answers": ["(Woodrow) Wilson"],
+            "tips": ["第一次世界大战期间美国的总统是谁？"]
+        },
+        {
+            "number": 80,
+            "questions": ["Who was the President during the Great Depression and World War 2?"],
+            "keys": ["Presidnet", "World War 2"],
+            "answers": ["(Franklin) Roosevelt"],
+            "tips": ["美国大萧条和二战时期的总统是谁？"]
+        },
+        {
+            "number": 82,
+            "questions": ["Before he was President, Eisenhower was a general. What war was he in?"],
+            "keys": ["Eisenhower"],
+            "answers": ["World War 2"],
+            "tips": ["艾森豪威尔当总统之前参加了哪个战争？"]
+        },
+        {
+            "number": 28,
+            "questions": ["What is the name of the President of the United States now?"],
+            "keys": ["President", "now"],
+            "answers": ["Joe Biden"],
+            "tips": ["现任美国总统是谁？"]
+        },
+        {
+            "number": 29,
+            "questions": ["What is the name of the Vice President of the United States now?"],
+            "keys": ["Vice President", "now"],
+            "answers": ["Kamala Harris"],
+            "tips": ["现任美国副总统是谁？"]
+        },
+        {
+            "number": 30,
+            "questions": ["If the President can no longer serve, who becomes President?"],
+            "keys": ["If President"],
+            "answers": ["The Vice President"],
+            "tips": ["如果总统不能履职,由谁来做总统？"]
+        },
+        {
+            "number": 31,
+            "questions": ["If both the President and the Vice President can no longer serve, who becomes President?"],
+            "keys": ["If bot President","Vice President"],
+            "answers": ["The speaker of the House"],
+            "tips": ["如果总统和副总统都不能履职,由谁来做总统？"]
+        },
+        {
+            "number": 27,
+            "questions": ["In what month do we vote for President?"],
+            "keys": ["what month", "vote"],
+            "answers": ["November"],
+            "tips": ["我们在哪个月选总统？"]
+        },
+        {
+            "number": 26,
+            "questions": ["We elect a President for how many years?"],
+            "keys": ["President", "how many years"],
+            "answers": ["4 years"],
+            "tips": ["总统的任期是少年？"]
+        },
+        {
+            "number": 54,
+            "questions": ["How old do citizens have to be to vote for President?"],
+            "keys": ["How old", "vote"],
+            "answers": ["18 and older"],
+            "tips": ["美国公民须多少岁才可以投票选举总统？"]
+        },
+        {
+            "number": 32,
+            "questions": ["Whos is the Commander in Chief of the military?"],
+            "keys": ["Who", "Commander"],
+            "answers": ["The President"],
+            "tips": ["谁是美军总司令？"]
+        },
+        {
+            "number": 33,
+            "questions": ["Who signs bills to become laws?"],
+            "keys": ["Who", "signs bills"],
+            "answers": ["The President"],
+            "tips": ["谁签署议案市值成为法律？"]
+        },
+        {
+            "number": 34,
+            "questions": ["Who vetoes bills?"],
+            "keys": ["Who", "vetos bills"],
+            "answers": ["The President"],
+            "tips": ["谁能否决议案？"]
+        },
+        {
+            "number": 68,
+            "questions": ["What is one thing Benjamin Franklin is famous for?"],
+            "keys": ["Benjamin Franklin"],
+            "answers": ["U.S. diplomat"],
+            "tips": ["本杰明 富兰克林的著名事迹之一是什么？"]
+        },
+        {
+            "number": 85,
+            "questions": ["What did Martin Luther King Jr. do?"],
+            "keys": ["Martin Lunther King"],
+            "answers": ["Fought for civil rights"],
+            "tips": ["马丁 路德金有何事迹？"]
+        },
+        {
+            "number": 77,
+            "questions": ["What did Susan B. Anthony do?"],
+            "keys": ["Susan"],
+            "answers": ["Fought for women's rights"],
+            "tips": ["苏珊 安东尼有何事迹？"]
+        },
+        {
+            "number": 13,
+            "questions": ["Name one branch or part of the government."],
+            "keys": ["one part"],
+            "answers": ["Congress"],
+            "tips": ["说出政府的一个组成部分"]
+        },
+        {
+            "number": 16,
+            "questions": ["Who makes federal laws?"],
+            "keys": ["Who", "makes laws"],
+            "answers": ["Congress"],
+            "tips": ["谁制定联邦法律？"]
+        },
+        {
+            "number": 17,
+            "questions": ["What are the two parts of the U.S. Congress?"],
+            "keys": ["two parts", "Congress"],
+            "answers": ["The Senate and House"],
+            "tips": ["美国国会由哪两部分组成？"]
+        },
+        {
+            "number": 18,
+            "questions": ["How many U.S. Senators are there?"],
+            "keys": ["How many", "Senators"],
+            "answers": ["One hundred (100)"],
+            "tips": ["联邦参议员由多少位议员？"]
+        },
+        {
+            "number": 19,
+            "questions": ["We elect a U.S. Senator for how many years?"],
+            "keys": ["Senator", "How many years"],
+            "answers": ["Six (6)"],
+            "tips": ["我们选取的联邦参议员任期是多少年？"]
+        },
+        {
+            "number": 20,
+            "questions": ["Who is one of your state's U.S. Senators now?"],
+            "keys": ["one", "Senator"],
+            "answers": ["Kamala Harris"],
+            "tips": ["你州两位联邦参议员中的一个是谁？"]
+        },
+        {
+            "number": 44,
+            "questions": ["Who does a U.S. senator represent?"],
+            "keys": ["senator", "represent"],
+            "answers": ["All the people of the state"],
+            "tips": ["联邦参议员代表何人？"]
+        },
+        {
+            "number": 21,
+            "questions": ["The House of Representatives has how many voting members?"],
+            "keys": ["how many", "members"],
+            "answers": ["foud hundred thirty-five (435)"],
+            "tips": ["众议院有多少位有投票权的众议员？"]
+        },
+        {
+            "number": 22,
+            "questions": ["We elect a U.S Representative for how many years?"],
+            "keys": ["Representative", "how many years"],
+            "answers": ["two (2)"],
+            "tips": ["国会众议员的任期是多少年？"]
+        },
+        {
+            "number":25,
+            "questions": ["Why do some states have more representatives than other states?"],
+            "keys": ["Why", "more representatives"],
+            "answers": ["(because) they have more people"],
+            "tips": ["为什么有些州的国会议员人数比其他州多？"]
+        },
+        {
+            "number": 23,
+            "questions": ["Name your U.S. representative."],
+            "keys": ["Name", "representatives"],
+            "answers": ["Nancy Pelosi"],
+            "tips": ["说出你所在选区的国会众议员的名字。"]
+        },
+        {
+            "number": 47,
+            "questions": ["What is the name of the Speaker of the House of Representatives now?"],
+            "keys": ["Speaker of the House"],
+            "answers": ["Nancy Pelosi"],
+            "tips": ["现任参议员议长是谁？"]
+        },
+        {
+            "number": 15,
+            "questions": ["Who is in charge of the executive branch?"],
+            "keys": ["Who", "in charge executive"],
+            "answers": ["The President"],
+            "tips": ["谁负责行政部门"]
+        },
+        {
+            "number": 35,
+            "questions": ["What does the President's Cabinet do?"],
+            "keys": ["What", "Cabinet do"],
+            "answers": ["Advises the President"],
+            "tips": ["总统内阁的职能是？"]
+        },
+        {
+            "number": 36,
+            "questions": ["What are two Cabinet-level positions？"],
+            "keys": ["two", "positions"],
+            "answers": ["Secretary of State", "Secretary of Labor"],
+            "tips": ["举出两个内阁部长职位"]
+        },
+        {
+            "number": 37,
+            "questions": ["What does the judicial branch do?"],
+            "keys": ["What", "judicial", "do"],
+            "answers": ["explains laws"],
+            "tips": ["司法部门的职能是？"]
+        },
+        {
+            "number": 38,
+            "questions": ["What is the highest court in the United States?"],
+            "keys": ["the highest court"],
+            "answers": ["the Supreme Court"],
+            "tips": ["美国最高级别的法院是？"]
+        },
+        {
+            "number": 39,
+            "questions": ["How many justices are on the Supreme Court?"],
+            "keys": ["How many", "justices"],
+            "answers": ["Nine (9)"],
+            "tips": ["联邦最高法院有几位大法官？"]
+        },
+        {
+            "number": 40,
+            "questions": ["Who is the Chief Justice of the United States now?"],
+            "keys": ["Chief Justice"],
+            "answers": ["(John) Roberts"],
+            "tips": ["谁是现任联邦首席大法官？"]
+        },
+        {
+            "number": 14,
+            "questions": ["What stops one branch of government form becoming too powerful?"],
+            "keys": ["stops", "too powerful"],
+            "answers": ["checks and balances"],
+            "tips": ["有何方式可防止政府中任何一分支变得权利过大？"]
+        },
+        {
+            "number": 45,
+            "questions": ["What are the two major political parties in the Unites States?"],
+            "keys": ["two major parties"],
+            "answers": ["Democratic and Republican"],
+            "tips": ["美国的两大政党是？"]
+        },
+        {
+            "number": 46,
+            "questions": ["What is the political party of the President now?"],
+            "keys": ["party", "President now"],
+            "answers": ["Democratic"],
+            "tips": ["现任总统属于哪个政党？"]
+        },
+        {
+            "number": 72,
+            "questions": ["Name one war fought by the United States in the 1800s."],
+            "keys": ["war", "North and South"],
+            "answers": ["The Civil War"],
+            "tips": ["美国北方与南方之间的战争称为什么？"]
+        },
+        {
+            "number": 73,
+            "questions": ["Name the U.S. war between the North and the South."],
+            "keys": ["war", "North and South"],
+            "answers": ["the Civil War"],
+            "tips": ["美国南方与北方之间的战争称为什么？"]
+        },
+        {
+            "number": 74,
+            "questions": ["Name one problem that led to the Civil War."],
+            "keys": ["one Problem", "Civil War"],
+            "answers": ["slavery"],
+            "tips": ["举出一个引发美国南北战争的因素？"]
+        },
+        {
+            "number": 78,
+            "questions": ["Name one war fought by the United States in 1900s"],
+            "keys": ["one war", "1900s"],
+            "answers": ["War war II"],
+            "tips": ["举出一场美国在二十世纪参与的战争。"]
+        },
+        {
+            "number": 81,
+            "questions": ["Who did the United States fight in the World War 2?"],
+            "keys": ["Who", "fight", "World War II"],
+            "answers": ["Japan, Germany, and Italy"],
+            "tips": ["美国在二战时是与谁交战？"]
+        },
+        {
+            "number": 83,
+            "questions": ["During the Cold War, that was the main concern of the United States?"],
+            "keys": ["Cold War"],
+            "answers": ["Communism"],
+            "tips": ["美国在冷战期间最担心的是什么？"]
+        },
+        {
+            "number": 62,
+            "questions": ["Who wrote the Declaration of Independence?"],
+            "keys": ["wrote", "Independence"],
+            "answers": ["(Thomas) Jefferson"],
+            "tips": ["谁撰写了独立宣言？"]
+        },
+        {
+            "number": 63,
+            "questions": ["When was the Delcaration of Independence adopted?"],
+            "keys": ["When", "Independence adopted"],
+            "answers": ["July 4, 1776"],
+            "tips": ["独立宣言在那一天通过并采纳？"]
+        },
+        {
+            "number": 8,
+            "questions": ["What did the Delcaration of Independece do?"],
+            "keys": ["What", "Independence do"],
+            "answers": ["Said that the United States is free"],
+            "tips": ["独立宣言的作用是？"]
+        },
+        {
+            "number": 9,
+            "questions": ["What are two rights in the Delcaration Independence?"],
+            "keys": ["two rights", "Independence"],
+            "answers": ["life, liberty"],
+            "tips": ["说出\"独立宣言\"中的两项权利"]
+        },
+        {
+            "number": 99,
+            "questions": ["When do we celebrate Independence Day?"],
+            "keys": ["Independence Day"],
+            "answers": ["July 4th"],
+            "tips": ["我们在哪一天庆祝独立日？"]
+        },
+        {
+            "number": 100,
+            "questions": ["Name two national U.S. holidays."],
+            "keys": ["two", "holidays"],
+            "answers": ["Independence Day, Labor Day"],
+            "tips": ["说出美国两个法定假日"]
+        },
+        {
+            "number": 1,
+            "questions": ["What is the supreme law of the land?"],
+            "keys": ["the supreme law"],
+            "answers": ["The constitution"],
+            "tips": ["美国的最高法律是？"]
+        },
+        {
+            "number": 2,
+            "questions": ["What doe the Constitution do?"],
+            "keys": ["What", "Constitution do"],
+            "answers": ["Set up the government"],
+            "tips": ["宪法的作用是什么？"]
+        },
+        {
+            "number": 3,
+            "questions": ["The idea of self-government is in the first three words of the Constitution."],
+            "keys": ["first three words"],
+            "answers": ["We the People"],
+            "tips": ["宪法的前三个英文字（人民自治的理念）是？"]
+        },
+        {
+            "number": 65,
+            "questions": ["What happened at the Constitutional convention?"],
+            "keys": ["Constitutional convention"],
+            "answers": ["The Constitution was written."],
+            "tips": ["制宪会议做成了什么事？"]
+        },
+        {
+            "number": 66,
+            "questions": ["When was the Constitution written?"],
+            "keys": ["When", "Constitution written"],
+            "answers": ["1787"],
+            "tips": ["宪法是在何时(哪一年)写成的？"]
+        },
+        {
+            "number": 4,
+            "questions": ["What is an amendment?"],
+            "keys": ["an amendment"],
+            "answers": ["a change(to the Constitution)"],
+            "tips": ["什么事宪法修正案？"]
+        },
+        {
+            "number": 7,
+            "questions": ["How many amendments does the Constitution have?"],
+            "keys": ["How many", "amendments"],
+            "answers": ["twenty-seven (27)"],
+            "tips": ["(目前)宪法有多少修正案？"]
+        },
+        {
+            "number": 5,
+            "questions": ["What do we call the first ten amendments to the constitution?"],
+            "keys": ["first ten amendments"],
+            "answers": ["the Bill of Rights"],
+            "tips": ["宪法修正案前十条统称为什么？"]
+        },
+        {
+            "number": 6,
+            "questions": ["What is one right or freedom from the First Amendment?"],
+            "keys": ["First Amendments"],
+            "answers": ["speech"],
+            "tips": ["举出宪法第一修正案的一项权利或自由？"]
+        },
+        {
+            "number": 48,
+            "questions": ["There are four amendments to the Constitution about who can vote. Describe one of them."],
+            "keys": ["who can vote"],
+            "answers": ["Citizen eighteen and older."],
+            "tips": ["宪法里有四条修正案规范了投票权,试举一项。"]
+        },
+        {
+            "number": 53,
+            "questions": ["What is one promise you make when you become a United States citizen?"],
+            "keys": ["one promise", "citizen"],
+            "answers": ["obey the laws of the United States"],
+            "tips": ["举出你在入籍成为美国公民时作出的一项承诺？"]
+        },
+        {
+            "number": 49,
+            "questions": ["What is one responsibility that is only for United States citizens?"],
+            "keys": ["one responsibility", "citizens"],
+            "answers": ["Voite in a federal election"],
+            "tips": ["举出美国公民才拥有的一项责任。"]
+        },
+        {
+            "number": 50,
+            "questions": ["Name one right only for United States citizens."],
+            "keys": ["one right", "citizens"],
+            "answers": ["Vote in a federal election"],
+            "tips": ["举出美国公民才拥有的一项权利。"]
+        },
+        {
+            "number": 55,
+            "questions": ["What are twi ways that Americans can participate in their democracy?"],
+            "keys": ["two ways", "Americana"],
+            "answers": ["vote, write to a newspaper"],
+            "tips": ["举出美国人参与民主政治的两种方法"]
+        },
+        {
+            "number": 51,
+            "questions": ["What are two rights of everyone living in the United States?"],
+            "keys": ["two rights", "everyone"],
+            "answers": ["freedom of speech", "freedom of assembly"],
+            "tips": ["举出每一个居住在美国的人都拥有的两项权利"]
+        },
+        {
+            "number": 52,
+            "questions": ["What do we show loyalty to when we say the Pledge of Allegiance?"],
+            "keys": ["show loyalty"],
+            "answers": ["the United States"],
+            "tips": ["我们效忠宣誓时是向谁表达忠诚？"]
+        },
+        {
+            "number": 96,
+            "questions": ["Why does the flag have 13 stripes?"],
+            "keys": ["13 stripes"],
+            "answers": ["Becase there were 13 original colonies"],
+            "tips": ["美国国旗为什么有13条条纹？"]
+        },
+        {
+            "number": 97,
+            "questions": ["Why does the flag have 50 stars?"],
+            "keys": ["50 stars"],
+            "answers": ["Because there are 50 states"],
+            "tips": ["美国国旗为什么有50颗星？"]
+        },
+        {
+            "number": 98,
+            "questions": ["What is the name of the national anthem?"],
+            "keys": ["national anthem"],
+            "answers": ["The Star-Spangled Banner"],
+            "tips": ["美国国歌的名称是？"]
+        },
+        {
+            "number": 12,
+            "questions": ["What is the \"rule of law\"?"],
+            "keys": ["rule of law"],
+            "answers": ["Everyone must follow the law."],
+            "tips": ["法制的基础是什么？"]
+        },
+        {
+            "number": 58,
+            "questions": ["What is one reason colonies came to America?"],
+            "keys": ["one reason", "came to America"],
+            "answers": ["freedom"],
+            "tips": ["举出当初殖民者来美洲的一个原因？"]
+        },
+        {
+            "number": 10,
+            "questions": ["What is freedom of religion?"],
+            "keys": ["freedom of religion"],
+            "answers": ["You can practice any religion, or not practice a religion."],
+            "tips": ["什么事宗教自由？"]
+        },
+        {
+            "number": 60,
+            "questions": ["What group of people was taken to America and sold as slaves?"],
+            "keys": ["people", "sold as slaves"],
+            "answers": ["People from Africa"],
+            "tips": ["哪一群人被带到美国被卖为奴？"]
+        },
+        {
+            "number": 84,
+            "questions": ["What movement tried to end racial discrimination?"],
+            "keys": ["What movement"],
+            "answers": ["Civil rights (movement)"],
+            "tips": ["试图结束种族歧视的是哪个运动？"]
+        },
+        {
+            "number": 11,
+            "questions": ["What is the economic system in the United States?"],
+            "keys": ["economic systems"],
+            "answers": ["market economy"],
+            "tips": ["美国是什么经济制度？"]
+        },
+        {
+            "number": 86    ,
+            "questions": ["What major event happened on September 11, 2001, in the United States?"],
+            "keys": ["September 11"],
+            "answers": ["Terrorists attacked the United States."],
+            "tips": ["2011年9月11日美国发生了什么大事？"]
+        },
+        {
+            "number": 57,
+            "questions": ["When must all men register for Selective Service?"],
+            "keys": ["When", "men register"],
+            "answers": ["At age 18."],
+            "tips": ["所有男子何时必须登记兵役？"]
+        },
+        {
+            "number": 56,
+            "questions": ["When is the last day you can send in federal income tax forms?"],
+            "keys": ["When", "send tax"],
+            "answers": ["April 15"],
+            "tips": ["寄送联邦收入税表的截止日期是哪一天？"]
+        },
+        {
+            "number": 59,
+            "questions": ["Who lived in America before the Europeans arrived?"],
+            "keys": ["Who", "lived before"],
+            "answers": ["American Indians"],
+            "tips": ["在欧洲人来之前,谁已经在美国居住？"]
+        },
+        {
+            "number": 61,
+            "questions": ["Why did the colonies fight the British?"],
+            "keys": ["Why", "fight British"],
+            "answers": ["because of high taxes"],
+            "tips": ["殖民者为何要与英国作战？"]
+        }
+    ]
+}

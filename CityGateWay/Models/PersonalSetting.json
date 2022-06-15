@@ -1,6 +1,6 @@
 {
-    "speakingRate": 0.5,
+    "speakingRate": 0.3,
     "state" : "California",
-    "customTestNames": ["PersonalInfo"],
-    "currentTest": "PersonalInfo"
+    "testList": ["PersonalInfo", "CivilTest"],
+    "currentTest": 0
 }

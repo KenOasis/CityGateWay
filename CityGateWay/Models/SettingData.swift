@@ -10,8 +10,8 @@ import Foundation
 struct SettingData: Codable {
     var speakingRate: Float
     var state: String
-    var customTestNames: [String]
-    var currentTest: String
+    var testList: [String]
+    var currentTest: Int
     
     mutating func setSpeakingRate(_ rate: Float) {
         speakingRate = rate
@@ -21,12 +21,13 @@ struct SettingData: Codable {
         self.state = state
     }
     
-    mutating func setCustomTestNames(_ names: [String]) {
-        customTestNames = names
-    }
+    // TODO add test / remove test from testList
     
-    mutating func setCurrentTest(_ test: String) {
+    mutating func setCurrentTest(_ test: Int) {
         currentTest = test
     }
     
+    func getCurrentTestName() -> String {
+        return testList[currentTest]
+    }
 }

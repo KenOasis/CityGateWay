@@ -11,7 +11,6 @@ import Foundation
 
 struct QuizData: Codable {
     var quiz: [Question]
-    var category: String
 }
 struct Question: Codable {
     var number: Int

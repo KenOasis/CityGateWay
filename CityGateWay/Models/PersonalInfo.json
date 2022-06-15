@@ -335,8 +335,49 @@
             "keys": ["gender"],
             "answers": ["I am female."],
             "tips": ["你的性别是？"]
+        },
+        {
+            "number": 49,
+            "questions": ["Do you support the Constitution and form of Government of the United States?"],
+            "keys": ["support", "Constitution"],
+            "answers": ["Yes, I do."],
+            "tips": ["你支持美国政府和宪法吗？"]
+        },
+        {
+            "number": 50,
+            "questions": ["Do you understand the full Oath of Allegiance to the United States?"],
+            "keys": ["understand", "Oath of Allegiance"],
+            "answers": ["Yes, I do."],
+            "tips": ["你知道效忠宣誓吗?"]
+        },
+        {
+            "number": 51,
+            "questions": ["Are you willing to take the full Oath of Allegiance to the United States?"],
+            "keys": ["willing", "Oath of Allegiance"],
+            "answers": ["Yes, I will."],
+            "tips": ["你愿意向美国效忠宣誓吗?"]
+        },
+        {
+            "number": 52,
+            "questions": ["If the law requires it, are you willing to bear arms on behalf of the United States?"],
+            "keys": ["law requires", "bear arms"],
+            "answers": ["Yes, I will."],
+            "tips": ["如果法律需要，你愿意为美国而战吗?"]
+        },
+        {
+            "number": 53,
+            "questions": ["If the law requires it, are you willing to perform noncombatant service in the U.S. armed forces?"],
+            "keys": ["law requires", "noncombatant"],
+            "answers": ["Yes, I will."],
+            "tips": ["如果法律需要，你愿意作为非战斗人员支持美国军队吗?"]
+        },
+        {
+            "number": 54,
+            "questions": ["If the law requires it, are you willing to perform work of national importance under the civilian direction?"],
+            "keys": ["law requires", "civilisn"],
+            "answers": ["Yes, I will."],
+            "tips": ["如果法律需要，你愿意执行非军事指令吗?"]
         }
-    ],
-    "category": "Personal Info Test"
+    ]
 }
 

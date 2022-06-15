@@ -9,7 +9,6 @@ import Foundation
 
 struct QuizBase {
     var questions: [Question]
-    var category: String
     var currentQuestion: Int
     
     init(forName: String) {
@@ -18,7 +17,6 @@ struct QuizBase {
             fatalError("File Not Found")
         }
         questions = jsonData!.quiz
-        category = jsonData!.category
         currentQuestion = 1
     }
     

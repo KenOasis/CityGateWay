@@ -38,7 +38,7 @@ class MainViewController: UIViewController {
     var ttsCount = 0
     
     override func viewDidLoad() {
-        quizBase  = QuizBase(forName: settingBase.setting!.currentTest)
+        quizBase  = QuizBase(forName: settingBase.setting!.getCurrentTestName())
         initUIStyle()
         let currentQuestion = quizBase!.getCurrentQuestion()
         self.modalPresentationStyle = .fullScreen
@@ -111,6 +111,9 @@ class MainViewController: UIViewController {
         print("Favorite")
     }
     
+    @IBAction func backToMenuPressed(_ sender: UIButton) {
+        dismiss(animated: true)
+    }
     @IBAction func settingButtonPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "goToSetting", sender: self)
     }
