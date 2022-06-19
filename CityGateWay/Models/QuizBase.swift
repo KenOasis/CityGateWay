@@ -20,8 +20,6 @@ struct QuizBase {
         currentQuestion = 1
     }
     
-    
-    
     mutating func getNextQuestion() -> Question {
         var currentNumber = currentQuestion
         if currentQuestion == questions.count {
@@ -48,6 +46,15 @@ struct QuizBase {
         return Float(currentQuestion) / Float(questions.count)
     }
     
+    mutating func updatedQuestionFromAPI(updatedQuestions: [UpdatedQuestion]){
+        for updatedQuestion in updatedQuestions {
+            if let questionIndice = questions.firstIndex(where: {$0.number == updatedQuestion.number}) {
+                questions[questionIndice].answers = updatedQuestion.answer
+            } else {
+                print("Error! Question with number:\(updatedQuestion.number) not exists.")
+            }
+        }
+    }
     
 }
 

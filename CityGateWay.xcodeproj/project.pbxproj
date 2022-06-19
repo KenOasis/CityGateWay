@@ -17,7 +17,9 @@
 		422E2F0C28495ABA00164FF4 /* QuizBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E2F0B28495ABA00164FF4 /* QuizBase.swift */; };
 		422E2F0E28497A9E00164FF4 /* PersonalInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4227CF502842C4DF00AFF7D2 /* PersonalInfo.json */; };
 		422E2F10284987D700164FF4 /* flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 422E2F0F284987D700164FF4 /* flag.jpg */; };
-		422E2F1228498B5400164FF4 /* CivilGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422E2F1128498B5400164FF4 /* CivilGenerator.swift */; };
+		42465878285AA11400DD4DC4 /* CivilDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42465877285AA11400DD4DC4 /* CivilDataManager.swift */; };
+		4246587A285AA77300DD4DC4 /* CivilData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42465879285AA77300DD4DC4 /* CivilData.swift */; };
+		4246587E285D3C8100DD4DC4 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4246587D285D3C8100DD4DC4 /* UpdateViewController.swift */; };
 		428CF656284AB3C60079A445 /* SettingBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428CF655284AB3C60079A445 /* SettingBase.swift */; };
 		428CF658284ABB930079A445 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428CF657284ABB930079A445 /* SettingViewController.swift */; };
 		428CF65B284AC1500079A445 /* SettingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428CF65A284AC1500079A445 /* SettingData.swift */; };
@@ -39,7 +41,9 @@
 		422E2F09284959F900164FF4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		422E2F0B28495ABA00164FF4 /* QuizBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBase.swift; sourceTree = "<group>"; };
 		422E2F0F284987D700164FF4 /* flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flag.jpg; sourceTree = "<group>"; };
-		422E2F1128498B5400164FF4 /* CivilGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilGenerator.swift; sourceTree = "<group>"; };
+		42465877285AA11400DD4DC4 /* CivilDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilDataManager.swift; sourceTree = "<group>"; };
+		42465879285AA77300DD4DC4 /* CivilData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilData.swift; sourceTree = "<group>"; };
+		4246587D285D3C8100DD4DC4 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 		424D24BA284C061E00372AD0 /* CivilTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CivilTest.json; sourceTree = "<group>"; };
 		428CF655284AB3C60079A445 /* SettingBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingBase.swift; sourceTree = "<group>"; };
 		428CF657284ABB930079A445 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 				4227CF372841CEAB00AFF7D2 /* MainViewController.swift */,
 				428CF657284ABB930079A445 /* SettingViewController.swift */,
 				422E2F09284959F900164FF4 /* MenuViewController.swift */,
+				4246587D285D3C8100DD4DC4 /* UpdateViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -115,11 +120,12 @@
 				4227CF502842C4DF00AFF7D2 /* PersonalInfo.json */,
 				42D8889E28448B5C00651EC6 /* QuizData.swift */,
 				422E2F0B28495ABA00164FF4 /* QuizBase.swift */,
-				422E2F1128498B5400164FF4 /* CivilGenerator.swift */,
 				428CF655284AB3C60079A445 /* SettingBase.swift */,
 				428CF659284ABC5F0079A445 /* PersonalSetting.json */,
 				428CF65A284AC1500079A445 /* SettingData.swift */,
 				424D24BA284C061E00372AD0 /* CivilTest.json */,
+				42465877285AA11400DD4DC4 /* CivilDataManager.swift */,
+				42465879285AA77300DD4DC4 /* CivilData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,16 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4246587A285AA77300DD4DC4 /* CivilData.swift in Sources */,
 				4227CF382841CEAB00AFF7D2 /* MainViewController.swift in Sources */,
+				42465878285AA11400DD4DC4 /* CivilDataManager.swift in Sources */,
 				4227CF342841CEAB00AFF7D2 /* AppDelegate.swift in Sources */,
 				428CF65B284AC1500079A445 /* SettingData.swift in Sources */,
 				42D8889F28448B5C00651EC6 /* QuizData.swift in Sources */,
-				422E2F1228498B5400164FF4 /* CivilGenerator.swift in Sources */,
 				428CF656284AB3C60079A445 /* SettingBase.swift in Sources */,
 				428CF658284ABB930079A445 /* SettingViewController.swift in Sources */,
 				422E2F0C28495ABA00164FF4 /* QuizBase.swift in Sources */,
 				4227CF362841CEAB00AFF7D2 /* SceneDelegate.swift in Sources */,
 				422E2F0A284959F900164FF4 /* MenuViewController.swift in Sources */,
+				4246587E285D3C8100DD4DC4 /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,6 +25,9 @@ class MenuViewController: UIViewController {
         currentTest = 0
         self.performSegue(withIdentifier: "goToCustom", sender: self)
     }
+    @IBAction func dataUpdatePressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "goToUpdate", sender: self)
+    }
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

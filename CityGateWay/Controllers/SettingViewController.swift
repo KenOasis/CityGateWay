@@ -25,6 +25,8 @@ class SettingViewController: UIViewController {
     @IBAction func speakingRateSliderChanged(_ sender: UISlider) {
         speakingRateLabel.text = String(format: "%.1f", speakingRateSlider.value)
     }
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.

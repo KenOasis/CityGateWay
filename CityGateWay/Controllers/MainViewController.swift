@@ -38,77 +38,17 @@ class MainViewController: UIViewController {
     var ttsCount = 0
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         quizBase  = QuizBase(forName: settingBase.setting!.getCurrentTestName())
-        initUIStyle()
+        questionLabelView.setLabel()
+        answerLabelView.setLabel()
         let currentQuestion = quizBase!.getCurrentQuestion()
         self.modalPresentationStyle = .fullScreen
         updateUI(question: currentQuestion)
-        super.viewDidLoad()
         synthesizer.delegate = self
         speakButtons.append(questionSpeakButton)
         speakButtons.append(answerSpeakButton)
         // Do any additional setup after loading the view.
-    }
-    
-    func initUIStyle() {
-        questionLabelView.setLabel()
-        answerLabelView.setLabel()
-        
-    }
-    
-    func updateUI(question: Question) {
-        numberLabelView.text = "Question: " + String(question.number)
-        questionLabelView.text = question.getQuestion()
-        keywordsLabelView.text = question.getKey()
-        answerLabelView.text = question.getAnswer()
-        tipsLabelView.text = question.getTips()
-        progressBarView.progress = quizBase!.getCurrentProgress()
-        
-    }
-    
-    func speakText(text: String) {
-        
-        let textsToSpeech = text.components(separatedBy: " / ")
-        ttsCount = textsToSpeech.count
-        for i in 0..<textsToSpeech.count {
-            let utterance = AVSpeechUtterance(string: textsToSpeech[i])
-            utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-            utterance.rate = settingBase.setting!.speakingRate
-            utterance.preUtteranceDelay = 0.5
-            utterance.postUtteranceDelay = 0.5
-            synthesizer.speak(utterance)
-        }
-        
-    }
-    
-    
-    @IBAction func previousButtonPressed(_ sender: UIButton) {
-        let previousQuestion = quizBase!.getPreviousQuestion()
-        updateUI(question: previousQuestion)
-    }
-    
-    
-    @IBAction func nextQuestionPressed(_ sender: UIButton) {
-        let nextQuestion = quizBase!.getNextQuestion()
-        updateUI(question: nextQuestion)
-    }
-    
-    
-    @IBAction func questionSpeakPressed(_ sender: UIButton) {
-        let questionText = questionLabelView.text!
-        switchButtons(buttons: speakButtons)
-        speakText(text: questionText)
-    }
-    @IBAction func answerSpeakPressed(_ sender: UIButton) {
-        let answerText = answerLabelView.text!
-        switchButtons(buttons: speakButtons)
-        speakText(text: answerText)
-    }
-    
-    
-    @IBAction func favoritePressed(_ sender: UIButton) {
-        // TODO add / remove from favorite as tapped
-        print("Favorite")
     }
     
     @IBAction func backToMenuPressed(_ sender: UIButton) {
@@ -118,16 +58,6 @@ class MainViewController: UIViewController {
         self.performSegue(withIdentifier: "goToSetting", sender: self)
     }
     
-    
-    @IBAction func modifiedQuestionPressed(_ sender: UIButton) {
-        print("Modified question")
-        // TODO modified question as needed
-    }
-    @IBAction func modifiedAnswerPressed(_ sender: UIButton) {
-        print("Modified answer")
-        // TODO modified answer as needed
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToSetting" {
             let destinationVC = segue.destination as! SettingViewController
@@ -135,9 +65,8 @@ class MainViewController: UIViewController {
         }
     }
     @IBAction func unwindToViewController1(segue: UIStoryboardSegue) {
-        
         let dest = segue.source as! SettingViewController
-        settingBase.setting?.setSpeakingRate(dest.speakingRateSlider.value)
+        settingBase.setSpeakingRate(dest.speakingRateSlider.value)
        // TODO: Use foo in view controller 1
     }
     
@@ -157,6 +86,7 @@ extension UILabel {
     }
 }
 
+//MARK: -TTS Functionality
 
 extension MainViewController: AVSpeechSynthesizerDelegate {
     // to switch(disable/enable) speak buttons (all) when tts is speaking utterance
@@ -169,7 +99,78 @@ extension MainViewController: AVSpeechSynthesizerDelegate {
         }
     }
     
+    func speakText(text: String) {
+        let textsToSpeech = text.components(separatedBy: " / ")
+        ttsCount = textsToSpeech.count
+        for i in 0..<textsToSpeech.count {
+            let utterance = AVSpeechUtterance(string: textsToSpeech[i])
+            utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+            utterance.rate = settingBase.setting!.speakingRate
+            utterance.preUtteranceDelay = 0.5
+            utterance.postUtteranceDelay = 0.5
+            synthesizer.speak(utterance)
+        }
+    }
+    
+    @IBAction func questionSpeakPressed(_ sender: UIButton) {
+        let questionText = questionLabelView.text!
+        switchButtons(buttons: speakButtons)
+        speakText(text: questionText)
+    }
+    
+    @IBAction func answerSpeakPressed(_ sender: UIButton) {
+        let answerText = answerLabelView.text!
+        switchButtons(buttons: speakButtons)
+        speakText(text: answerText)
+    }
+    
+    
 }
 
 
+//MARK: - Previous/Next Question Funtionality
 
+extension MainViewController {
+    func updateUI(question: Question) {
+        numberLabelView.text = "Question: " + String(question.number)
+        questionLabelView.text = question.getQuestion()
+        keywordsLabelView.text = question.getKey()
+        answerLabelView.text = question.getAnswer()
+        tipsLabelView.text = question.getTips()
+        progressBarView.progress = quizBase!.getCurrentProgress()
+    }
+    
+    @IBAction func previousButtonPressed(_ sender: UIButton) {
+        let previousQuestion = quizBase!.getPreviousQuestion()
+        updateUI(question: previousQuestion)
+    }
+    
+    @IBAction func nextQuestionPressed(_ sender: UIButton) {
+        let nextQuestion = quizBase!.getNextQuestion()
+        updateUI(question: nextQuestion)
+    }
+}
+
+//MARK: - favorite question functionality
+extension MainViewController {
+    
+    @IBAction func favoritePressed(_ sender: UIButton) {
+        // TODO add / remove from favorite as tapped
+        print("Favorite")
+    }
+}
+
+
+//MARK: - modified(question/answer) functionality
+extension MainViewController {
+    
+    @IBAction func modifiedQuestionPressed(_ sender: UIButton) {
+        print("Modified question")
+        // TODO modified question as needed
+    }
+    @IBAction func modifiedAnswerPressed(_ sender: UIButton) {
+        print("Modified answer")
+        // TODO modified answer as needed
+    }
+
+}

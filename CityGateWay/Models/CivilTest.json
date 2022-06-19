@@ -471,14 +471,14 @@
         },
         {
             "number": 8,
-            "questions": ["What did the Delcaration of Independece do?"],
+            "questions": ["What did the Declaration of Independece do?"],
             "keys": ["What", "Independence do"],
             "answers": ["Said that the United States is free"],
             "tips": ["独立宣言的作用是？"]
         },
         {
             "number": 9,
-            "questions": ["What are two rights in the Delcaration Independence?"],
+            "questions": ["What are two rights in the Declaration Independence?"],
             "keys": ["two rights", "Independence"],
             "answers": ["life, liberty"],
             "tips": ["说出\"独立宣言\"中的两项权利"]
@@ -506,14 +506,14 @@
         },
         {
             "number": 2,
-            "questions": ["What doe the Constitution do?"],
+            "questions": ["What does the Constitution do?"],
             "keys": ["What", "Constitution do"],
             "answers": ["Set up the government"],
             "tips": ["宪法的作用是什么？"]
         },
         {
             "number": 3,
-            "questions": ["The idea of self-government is in the first three words of the Constitution."],
+            "questions": ["The idea of self-government is in the first three words of the Constitution. What is these three words?"],
             "keys": ["first three words"],
             "answers": ["We the People"],
             "tips": ["宪法的前三个英文字（人民自治的理念）是？"]
@@ -578,7 +578,7 @@
             "number": 49,
             "questions": ["What is one responsibility that is only for United States citizens?"],
             "keys": ["one responsibility", "citizens"],
-            "answers": ["Voite in a federal election"],
+            "answers": ["Vote in a federal election"],
             "tips": ["举出美国公民才拥有的一项责任。"]
         },
         {
@@ -590,7 +590,7 @@
         },
         {
             "number": 55,
-            "questions": ["What are twi ways that Americans can participate in their democracy?"],
+            "questions": ["What are two ways that Americans can participate in their democracy?"],
             "keys": ["two ways", "Americana"],
             "answers": ["vote, write to a newspaper"],
             "tips": ["举出美国人参与民主政治的两种方法"]
@@ -613,7 +613,7 @@
             "number": 96,
             "questions": ["Why does the flag have 13 stripes?"],
             "keys": ["13 stripes"],
-            "answers": ["Becase there were 13 original colonies"],
+            "answers": ["Because there were 13 original colonies"],
             "tips": ["美国国旗为什么有13条条纹？"]
         },
         {
